@@ -76,6 +76,9 @@ public class Main {
                  * Vì sử dụng CirclePolymorphism => Ko tham chiếu được đến các phương thức, hàm ngoài class đó
                  * Sử dụng Shape vì là class cha được class các con kế thừa
                  * => Sẽ tham chiếu đc đến các phương thức, hàm của các class con đó
+                 *
+                 * => Thể hiện tính đa hình (circlePolymorphism có nhiều hình thái khác nhau)
+                 * => Lúc là hình tròn, lúc là hình vuông, hình chữ nhật, hình thang
                  */
                 Shape circlePolymorphism = new CirclePolymorphism(5.3, 10.6);
                 System.out.println("Chu vi hình tròn: " + circlePolymorphism.perimeter());
