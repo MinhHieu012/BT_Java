@@ -1,4 +1,4 @@
-package org.example.Bai_1.oop_extends;
+package org.example.Bai_1.oop_extends_abstraction;
 
 import org.example.Bai_1.Shape;
 

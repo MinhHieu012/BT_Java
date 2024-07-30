@@ -1,15 +1,11 @@
-package org.example.Bai_1.oop_extends;
+package org.example.Bai_1.oop_polymorphism;
 
 import org.example.Bai_1.Shape;
 
-public class Rectangle extends Shape {
-    /**
-     * CV = (cd + cr) * 2
-     * DT = cd * cr
-     */
+public class RectanglePolymorphism extends Shape {
     double cd, cr;
 
-    public Rectangle(double cd, double cr) {
+    public RectanglePolymorphism(double cd, double cr) {
         this.cd = cd;
         this.cr = cr;
     }

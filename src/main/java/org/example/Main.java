@@ -1,13 +1,18 @@
 package org.example;
 
+import org.example.Bai_1.Shape;
 import org.example.Bai_1.oop_encapsulation.CircleEncapsulation;
 import org.example.Bai_1.oop_encapsulation.RectangleEncapsulation;
 import org.example.Bai_1.oop_encapsulation.SquareEncapsulation;
 import org.example.Bai_1.oop_encapsulation.TrapezoidEncapsulation;
-import org.example.Bai_1.oop_extends.Circle;
-import org.example.Bai_1.oop_extends.Rectangle;
-import org.example.Bai_1.oop_extends.Square;
-import org.example.Bai_1.oop_extends.Trapezoid;
+import org.example.Bai_1.oop_extends_abstraction.Circle;
+import org.example.Bai_1.oop_extends_abstraction.Rectangle;
+import org.example.Bai_1.oop_extends_abstraction.Square;
+import org.example.Bai_1.oop_extends_abstraction.Trapezoid;
+import org.example.Bai_1.oop_polymorphism.CirclePolymorphism;
+import org.example.Bai_1.oop_polymorphism.RectanglePolymorphism;
+import org.example.Bai_1.oop_polymorphism.SquarePolymorphism;
+import org.example.Bai_1.oop_polymorphism.TrapezoidPolymorphism;
 
 import java.util.Scanner;
 
@@ -17,8 +22,9 @@ public class Main {
         int numberChooose;
 
         System.out.println("Choose 1 of 4 OOP Properties:");
-        System.out.println("1. Extends");
+        System.out.println("1. Extends & Abstraction");
         System.out.println("2. Encapsulation");
+        System.out.println("3. Polymorphism");
 
         // Tạo đối tượng Scanner để nhận dữ liệu từ keyboard
         Scanner scanner = new Scanner(System.in);
@@ -63,6 +69,23 @@ public class Main {
                 System.out.println("Chu vi hình thang: " + trapezoidEncapsulation.perimeter());
                 System.out.println("Diện tích hình thang: " + trapezoidEncapsulation.area());
                 break;
+
+            case 3:
+                Shape circlePolymorphism = new CirclePolymorphism(5.3, 10.6);
+                System.out.println("Chu vi hình tròn: " + circlePolymorphism.perimeter());
+                System.out.println("Diện tích hình tròn: " + circlePolymorphism.area());
+
+                circlePolymorphism = new SquarePolymorphism(11);
+                System.out.println("Chu vi hình vuông: " + circlePolymorphism.perimeter());
+                System.out.println("Diện tích hình vuông: " + circlePolymorphism.area());
+
+                circlePolymorphism = new RectanglePolymorphism(6, 9);
+                System.out.println("Chu vi hình chữ nhật: " + circlePolymorphism.perimeter());
+                System.out.println("Diện tích hình chữ nhật: " + circlePolymorphism.area());
+
+                circlePolymorphism = new TrapezoidPolymorphism(4, 7, 5, 6, 5);
+                System.out.println("Chu vi hình thang: " + circlePolymorphism.perimeter());
+                System.out.println("Diện tích hình thang: " + circlePolymorphism.area());
         }
     }
 }

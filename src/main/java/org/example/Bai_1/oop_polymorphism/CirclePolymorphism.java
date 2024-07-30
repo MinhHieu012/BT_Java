@@ -1,16 +1,12 @@
-package org.example.Bai_1.oop_extends;
+package org.example.Bai_1.oop_polymorphism;
 
 import org.example.Bai_1.Shape;
 
-public class Circle extends Shape {
-    /**
-     * CV = 2 * 3.14 * radius (bán kinh)
-     * DT = 3.14 * (duong_kinh/2)^2
-     */
+public class CirclePolymorphism extends Shape {
     double radius, diameter;
 
     // Khởi tạo constructor
-    public Circle(double radius, double diameter) {
+    public CirclePolymorphism(double radius, double diameter) {
         this.radius = radius;
         this.diameter = diameter;
     }
