@@ -71,6 +71,12 @@ public class Main {
                 break;
 
             case 3:
+                /**
+                 * Sử dụng Shape thay vì CirclePolymorphism
+                 * Vì sử dụng CirclePolymorphism => Ko tham chiếu được đến các phương thức, hàm ngoài class đó
+                 * Sử dụng Shape vì là class cha được class các con kế thừa
+                 * => Sẽ tham chiếu đc đến các phương thức, hàm của các class con đó
+                 */
                 Shape circlePolymorphism = new CirclePolymorphism(5.3, 10.6);
                 System.out.println("Chu vi hình tròn: " + circlePolymorphism.perimeter());
                 System.out.println("Diện tích hình tròn: " + circlePolymorphism.area());
