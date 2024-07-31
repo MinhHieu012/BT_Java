@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Bai1_7;
 
 import org.example.Bai1_7.Shape;
 import org.example.Bai1_7.oop_encapsulation.CircleEncapsulation;
