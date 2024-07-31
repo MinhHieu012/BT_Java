@@ -1,6 +1,6 @@
-package org.example.Bai_1.oop_polymorphism;
+package org.example.Bai1_7.oop_polymorphism;
 
-import org.example.Bai_1.Shape;
+import org.example.Bai1_7.Shape;
 
 public class RectanglePolymorphism extends Shape {
     double cd, cr;

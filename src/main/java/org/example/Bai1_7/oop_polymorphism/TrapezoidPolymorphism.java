@@ -1,16 +1,12 @@
-package org.example.Bai_1.oop_extends_abstraction;
+package org.example.Bai1_7.oop_polymorphism;
 
-import org.example.Bai_1.Shape;
+import org.example.Bai1_7.Shape;
 
-public class Trapezoid extends Shape {
-    /**
-     * CV = a + b + c + d (a, b: cạnh đáy; c, d: cạnh bên)
-     * DT = ((a + b) * h) / 2
-     */
+public class TrapezoidPolymorphism extends Shape {
     double a, b, c, d, h;
 
     // Khởi tạo constructor
-    public Trapezoid(double a, double b, double c, double d, double h) {
+    public TrapezoidPolymorphism(double a, double b, double c, double d, double h) {
         this.a = a;
         this.b = b;
         this.c = c;

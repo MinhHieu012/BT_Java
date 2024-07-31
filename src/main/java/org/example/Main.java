@@ -1,18 +1,18 @@
 package org.example;
 
-import org.example.Bai_1.Shape;
-import org.example.Bai_1.oop_encapsulation.CircleEncapsulation;
-import org.example.Bai_1.oop_encapsulation.RectangleEncapsulation;
-import org.example.Bai_1.oop_encapsulation.SquareEncapsulation;
-import org.example.Bai_1.oop_encapsulation.TrapezoidEncapsulation;
-import org.example.Bai_1.oop_extends_abstraction.Circle;
-import org.example.Bai_1.oop_extends_abstraction.Rectangle;
-import org.example.Bai_1.oop_extends_abstraction.Square;
-import org.example.Bai_1.oop_extends_abstraction.Trapezoid;
-import org.example.Bai_1.oop_polymorphism.CirclePolymorphism;
-import org.example.Bai_1.oop_polymorphism.RectanglePolymorphism;
-import org.example.Bai_1.oop_polymorphism.SquarePolymorphism;
-import org.example.Bai_1.oop_polymorphism.TrapezoidPolymorphism;
+import org.example.Bai1_7.Shape;
+import org.example.Bai1_7.oop_encapsulation.CircleEncapsulation;
+import org.example.Bai1_7.oop_encapsulation.RectangleEncapsulation;
+import org.example.Bai1_7.oop_encapsulation.SquareEncapsulation;
+import org.example.Bai1_7.oop_encapsulation.TrapezoidEncapsulation;
+import org.example.Bai1_7.oop_extends_abstraction.Circle;
+import org.example.Bai1_7.oop_extends_abstraction.Rectangle;
+import org.example.Bai1_7.oop_extends_abstraction.Square;
+import org.example.Bai1_7.oop_extends_abstraction.Trapezoid;
+import org.example.Bai1_7.oop_polymorphism.CirclePolymorphism;
+import org.example.Bai1_7.oop_polymorphism.RectanglePolymorphism;
+import org.example.Bai1_7.oop_polymorphism.SquarePolymorphism;
+import org.example.Bai1_7.oop_polymorphism.TrapezoidPolymorphism;
 
 import java.util.Scanner;
 

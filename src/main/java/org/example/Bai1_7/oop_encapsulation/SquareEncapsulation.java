@@ -1,21 +1,17 @@
-package org.example.Bai_1.oop_polymorphism;
+package org.example.Bai1_7.oop_encapsulation;
 
-import org.example.Bai_1.Shape;
-
-public class SquarePolymorphism extends Shape {
+public class SquareEncapsulation {
     double edge;
 
     // Khởi tạo constructor
-    public SquarePolymorphism(double edge) {
+    public SquareEncapsulation(double edge) {
         this.edge = edge;
     }
 
-    @Override
     public double perimeter() {
         return 4 * edge;
     }
 
-    @Override
     public double area() {
         return edge * edge;
     }

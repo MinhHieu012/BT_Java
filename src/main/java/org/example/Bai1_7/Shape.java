@@ -1,4 +1,4 @@
-package org.example.Bai_1;
+package org.example.Bai1_7;
 
 public abstract class Shape {
     private String name;

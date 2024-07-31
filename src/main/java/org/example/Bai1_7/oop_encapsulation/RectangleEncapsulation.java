@@ -1,4 +1,4 @@
-package org.example.Bai_1.oop_encapsulation;
+package org.example.Bai1_7.oop_encapsulation;
 
 public class RectangleEncapsulation {
     double cd, cr;

@@ -1,6 +1,6 @@
-package org.example.Bai_1.oop_extends_abstraction;
+package org.example.Bai1_7.oop_extends_abstraction;
 
-import org.example.Bai_1.Shape;
+import org.example.Bai1_7.Shape;
 
 public class Square extends Shape {
     /**
