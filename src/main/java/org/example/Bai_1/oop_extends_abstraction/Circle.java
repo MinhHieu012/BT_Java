@@ -15,6 +15,7 @@ public class Circle extends Shape {
         this.diameter = diameter;
     }
 
+    // Triển khai lại hàm perimeter và area vì đã kế thừa lại từ abstract class
     @Override
     public double perimeter() {
         return 2 * 3.14 * radius;

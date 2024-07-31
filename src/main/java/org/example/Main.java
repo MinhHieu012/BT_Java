@@ -19,6 +19,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        // Tạo biến lưu trữ giá trị nhập từ bàn phím
         int numberChooose;
 
         System.out.println("Choose 1 of 4 OOP Properties:");
@@ -31,6 +32,9 @@ public class Main {
         // Đọc dữ liệu nhận từ bàn phím và ép kiểu sang int và lưu vào biến numberChooose
         numberChooose = Integer.parseInt(scanner.nextLine());
 
+        /**
+         * Sử dụng switch-case để bắt từng trường hợp input để hiển thị
+         */
         switch (numberChooose) {
             case 1:
                 System.out.println("Extends");
@@ -49,6 +53,8 @@ public class Main {
                 Trapezoid trapezoid = new Trapezoid(4, 7, 5, 6, 5);
                 System.out.println("Chu vi hình thang: " + trapezoid.perimeter());
                 System.out.println("Diện tích hình thang: " + trapezoid.area());
+
+                // Sử dụng break để dừng chạy khi đã hết case 1
                 break;
 
             case 2:
@@ -68,6 +74,8 @@ public class Main {
                 TrapezoidEncapsulation trapezoidEncapsulation = new TrapezoidEncapsulation(4, 7, 5, 6, 5);
                 System.out.println("Chu vi hình thang: " + trapezoidEncapsulation.perimeter());
                 System.out.println("Diện tích hình thang: " + trapezoidEncapsulation.area());
+
+                // Sử dụng break để dừng chạy khi đã hết case 2
                 break;
 
             case 3:
